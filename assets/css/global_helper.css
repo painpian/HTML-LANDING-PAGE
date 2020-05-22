@@ -1,0 +1,29 @@
+/*
+* global helper, created at 16 may 2020
+*/
+
+/*align style*/
+.align-justify{text-align:justify;}
+.align-center{text-align:center;}
+.align-right{text-align:right;}
+/*display*/
+.d-none{display: none;}
+/*padding*/
+.pt10{padding-top: 10%;}
+/*image cover*/
+.image-cover{
+	background-size: cover;
+	min-height: 300px;
+}
+.image-thumbs{
+	width: 100%;
+	height: auto;
+}
+/*line eight*/
+.line-height-mid{
+	line-height: 1.5em;
+}
+/*margin*/
+.mb-10{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Page Title</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- main style !-->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+		<!-- global style !-->
+		<link rel="stylesheet" href="assets/css/global_helper.css" type="text/css">
+		<!-- responsive style !-->
+		<link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
+		<!-- animate style -->
+		<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	</head>
+	<body>
+		<nav class="mobile-nav d-none hidden-md hidden-lg hidden-xl">
+			<div class="container">
+				<h4>Link Menu</h4>
+				<hr/>
+				<ul id="mobile-nav">
+					<li data-menu="about">About</li>
+					<li data-menu="history">History</a></li>
+					<li data-menu="teachers">Teachers</li>
+					<li data-menu="course">Course</li>
+				</ul>
+				<br/>
+				<h4>Language</h4>
+				<hr/>
+				<ul>
+					<li><img src="assets/img/flag/ID.png" class="img-flag"/> Indonesia</li>
+					<li><img src="assets/img/flag/UK.png" class="img-flag"/> English</li>
+					<li><img src="assets/img/flag/JP.png" class="img-flag"/> Japan</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="col-md-12 col-sm-12 col-xs-12" id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<img src="assets/img/dtech.png" class="img-logo"/>
+						<div class="hamburger-menu hidden-md hidden-lg hidden-xl" data-status="close" onclick="openMobileNav(this)">
+						  <div class="bar1"></div>
+						  <div class="bar2"></div>
+						  <div class="bar3"></div>
+						</div>
+					</div>
+					<div class="col-md-6 hidden-xs hidden-sm">
+						<ul class="menu" id="menu">
+							<li data-menu="about">About</li>
+							<li data-menu="history">History</a></li>
+							<li data-menu="teachers">Teacher</li>
+							<li data-menu="course">Course</li>
+						</ul>
+					</div>
+					<div class="col-md-4 hidden-xs hidden-sm">
+						<ul class="flag">
+							<li><img src="assets/img/flag/ID.png" class="img-flag"/> Indonesia</li>
+							<li><img src="assets/img/flag/UK.png" class="img-flag"/> English</li>
+							<li><img src="assets/img/flag/JP.png" class="img-flag"/> Japan</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="assets/img/arrows.svg" class="d-none" id="myBtn" onclick="scrollDown(this)"></img>
+		<div class="col-md-12 col-sm-12 col-xs-12" id="banner">
+			<div class="overlay">
+				<div class="container">
+					<div class="slide-quots animate__animated animate__fadeInDown">
+						<div class="quots animate__animated animate__fadeInUp">
+							<span> Education is what remains after one has forgotten what one has learned in school</span><br/>
+							<span>– Albert Einstein</span>
+						</div>
+						<div class="quots animate__animated animate__fadeInUp">
+							<span> Education is the passport to the future, for tomorrow belongs to those who prepare for it today.</span><br/>
+							<span>– Malcolm X</span>
+						</div>
+						<div class="quots animate__animated animate__fadeInUp">
+							<span> The only person who is educated is the one who has learned how to learn …and change.</span><br/>
+							<span>– Carl Rogers</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 d-none" id="about">
+			<div class="container" id="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="divider"><span></span><span>About</span><span></span></div>
+					</div>
+					<div class="col-md-6 animate__animated animate__fadeInTopLeft">
+						<span class="automatic-text align-center"></span>
+					</div>
+					<div class="col-md-6 image-cover animate__animated animate__fadeInTopRight" style="background-image: url('assets/img/about2.jpg');">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 d-none" id="todo">
+			<div class="container" id="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="divider"><span></span><span>What we well do?</span><span></span></div>
+					</div>
+					<div class="col-md-6 animate__animated animate__fadeInTopLeft image-cover" style="background-image: url('assets/img/wtodo.jpg');">
+
+					</div>
+					<div class="col-md-6 animate__animated animate__fadeInRight">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 col-sm-12 col-xs-12 d-none" id="history">
+			<div class="container" id="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="divider"><span></span><span>History</span><span></span></div>
+					</div>
+					<div class="timeline image-cover" style="background-image: url('assets/img/about2.jpg');">
+					  <div class="timeline-container animate__animated animate__fadeInTopLeft left">
+					    <div class="content">
+					      <h2>2017</h2>
+					      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+					    </div>
+					  </div>
+					  <div class="timeline-container animate__animated animate__fadeInTopRight right">
+					    <div class="content">
+					      <h2>2016</h2>
+					      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+					    </div>
+					  </div>
+					  <div class="timeline-container animate__animated animate__fadeInTopLeft left">
+					    <div class="content">
+					      <h2>2015</h2>
+					      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+					    </div>
+					  </div>
+					  <div class="timeline-container animate__animated animate__fadeInTopRight right">
+					    <div class="content">
+					      <h2>2012</h2>
+					      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 d-none" id="course">
+			<div class="container" id="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="divider"><span></span><span>Course</span><span></span></div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<div class="card zoom mb-10 animate__animated animate__fadeInTopLeft">
+						  <img class="card-img-top image-thumbs" src="assets/img/web-programming.png" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Web Programming</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<div class="card zoom mb-10 animate__animated animate__fadeInDown">
+						  <img class="card-img-top image-thumbs" src="assets/img/web-programming.png" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Mobile Programming</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<div class="card zoom mb-10 animate__animated animate__fadeInTopRight">
+						  <img class="card-img-top image-thumbs" src="assets/img/web-programming.png" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Dekstop Programming</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 d-none" id="teachers">
+			<div class="container" id="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="divider"><span></span><span>Teachers</span><span></span></div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<div class="flip-card animate__animated animate__fadeInLeft">
+						  <div class="flip-card-inner">
+						    <div class="flip-card-front">
+						      <img src="assets/img/team-01.png" alt="Avatar">
+						    </div>
+						    <div class="flip-card-back">
+						      <h1>Williamson</h1> 
+						      <p>Architect & Engineer</p> 
+						      <p>We love that guy</p>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<div class="flip-card animate__animated animate__fadeInDown">
+						  <div class="flip-card-inner">
+						    <div class="flip-card-front">
+						      <img src="assets/img/team-02.png" alt="Avatar">
+						    </div>
+						    <div class="flip-card-back">
+						      <h1>Kristiana</h1> 
+						      <p>Architect & Engineer</p> 
+						      <p>We love that guy</p>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<div class="flip-card animate__animated animate__fadeInRight">
+						  <div class="flip-card-inner">
+						    <div class="flip-card-front">
+						      <img src="assets/img/team-04.png" alt="Avatar">
+						    </div>
+						    <div class="flip-card-back">
+						      <h1>Miranda Joy</h1> 
+						      <p>Architect & Engineer</p> 
+						      <p>We love that guy</p>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 d-none" id="testimony">
+			<div class="container" id="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="divider"><span></span><span>Testimony</span><span></span></div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4 mb-10 animate__animated animate__fadeInLeft">
+						<div class="chip">
+						  <img src="assets/img/girl.svg" alt="Person" width="96" height="96">
+						  Jane Doe
+						  <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+						</div>
+						<div class="content">
+							<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</i></p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4 mb-10 animate__animated animate__fadeInDown">
+						<div class="chip">
+						  <img src="assets/img/man.svg" alt="Person" width="96" height="96">
+						  John Doe
+						  <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+						</div>
+						<div class="content">
+							<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</i></p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4 mb-10 animate__animated animate__fadeInRight">
+						<div class="chip">
+						  <img src="assets/img/testi.svg" alt="Person" width="96" height="96">
+						  John Doe
+						  <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+						</div>
+						<div class="content">
+							<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</i></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-12" id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<h5>Contact Details</h5>
+						<ul class="footer-links">
+							<li>info@yoursite.com</li>
+                            <li>www.yoursite.com</li>
+                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
+                            <li>+61 3 8376 6284</li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<h5>Information Link</h5>
+						<ul class="footer-links">
+							<li>Home Page</li>
+                            <li>About</li>
+                            <li>Course</li>
+                            <li>History</li>
+                            <li>Contact</li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-4">
+						<div class="align-center">
+							<h5>Map Address</h5>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59285.85209446977!2d106.8457511592072!3d-6.568722215945217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423a153dbb7df%3A0xaac1aacd454d4019!2sTaman%20Budaya%20Sentul%20City!5e1!3m2!1sid!2sid!4v1590131178447!5m2!1sid!2sid" width="250" height="250" frameborder="0" style="border-radius:50%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></body>
+
+		<!-- customer css !-->
+		<script>
+			$(function(){
+				//slider
+				var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+					var i;
+					var slides = document.getElementsByClassName("quots");
+					for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";
+					}
+					slideIndex++;
+					console.log(slides.length);
+					if (slideIndex > slides.length) {slideIndex = 1}
+					slides[slideIndex-1].style.display = "block";
+					setTimeout(showSlides, 5000);
+				}
+
+				//typeWriter
+				var i = 0;
+				var speed = 100;
+				var textWrite = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"+
+						"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"+
+						"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"+
+						"consequat.";
+				typeWriter();
+				function typeWriter() {
+					if (i < textWrite.length) {
+						document.querySelector('.automatic-text').innerHTML += textWrite.charAt(i);
+						i++;
+						setTimeout(typeWriter, speed);
+					}
+				}
+			});
+			//event menu
+			var list_menu = ["about", "todo", "history", "course", "teachers", "testimony"];
+			var ul = document.getElementById('menu');  // Parent
+
+				ul.addEventListener('click', function(e) {
+				      activeMenu(e);
+				});
+			function activeMenu(e) {
+				var elemns = document.querySelector('.active');
+				if (elemns !== null) {
+					elemns.classList.remove('active');
+				}
+				e.target.className = 'active';
+				
+				var target = e.target.getAttributeNode("data-menu").value;
+				var index = list_menu.indexOf(target);
+				var arrows = document.querySelector('#myBtn');
+					arrows.classList.remove('d-none');
+					arrows.setAttribute('data-index', index); 
+
+					scroll(target);
+			}
+
+			//mobile nav
+			function openMobileNav(x) {
+			  x.classList.toggle("change");
+			  var nav = document.querySelector('.mobile-nav');
+			  if(x.getAttributeNode('data-status').value == 'close') {
+				  	nav.classList.remove('d-none');
+				  	nav.style.width = "70%";
+				  	x.setAttribute('data-status', 'open');
+			  	} else {
+				  	nav.classList.add('d-none');
+				  	nav.style.width = "0%"; 
+				  	x.setAttribute('data-status', 'close'); 
+				}
+			}
+			var nav = document.getElementById('mobile-nav');  // Parent
+
+				nav.addEventListener('click', function(e) {
+				      activeMobileMenu(e);
+				});
+
+			function activeMobileMenu(e) {
+				var elemns = document.querySelector('.active');
+				if (elemns !== null) {
+					elemns.classList.remove('active');
+				}
+				e.target.className = 'active';
+				
+				var target = e.target.getAttributeNode("data-menu").value;
+				var index = list_menu.indexOf(target);
+				var arrows = document.querySelector('#myBtn');
+					arrows.classList.remove('d-none');
+					arrows.setAttribute('data-index', index); 
+
+				var mobile_nav = document.querySelector('.hamburger-menu');
+					openMobileNav(mobile_nav);
+
+					scroll(target);
+			}
+			//scroll effect
+			function scroll(target) {
+				var elementToView = document.getElementById(target);
+					elementToView.classList.remove('d-none');
+					elementToView.scrollIntoView({behavior : "smooth", block: "end", inline: "nearest"})
+			}
+
+			function scrollDown(e) {
+				var index = e.getAttributeNode('data-index').value;
+				var target = parseInt(index) + 1;
+				var menu = list_menu[target];
+					e.setAttribute('data-index', target);
+					scroll(menu);
+			}
+		</script>
+	</body>
+</html>

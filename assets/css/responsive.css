@@ -1,0 +1,122 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .hidden-xs{
+  	display: none;
+  }
+
+  #banner,.overlay{
+    min-height: 480px;
+  }
+
+  .slide-quots{
+    margin-top: 40%;
+  }
+
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .timeline > .timeline-container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .timeline-container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+@media only screen and (min-width: 567px) and (max-width: 767px) {
+  #banner,.overlay{
+    min-height: 480px;
+  }
+
+  .slide-quots{
+    margin-top: 40%;
+  }
+
+  .hamburger-menu{
+    margin-top: 6%;
+  }
+
+  .hidden-sm{
+    display: none;
+  }
+
+  .mobile-nav{
+    overflow-y: scroll;
+    padding-top: 10%;
+  }
+
+  .flip-card{
+    margin-left: 25%;
+  }
+
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .timeline > .timeline-container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .timeline-container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .slide-quots{
+    margin-top: 30%;
+  }
+
+  .flip-card, .flip-card > .flip-card-inner > .flip-card-front > img{
+    width: 230px;
+    margin-left: 0px;
+    height: 280px;
+  }
+  .hidden-md{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .hidden-lg, .hidden-xl{
+    display: none;
+  }
+}
